@@ -1,12 +1,11 @@
 #! /usr/bin/ruby
 
 require 'open-uri'
-require 'json'
-require 'json/add/core'
+require 'yaml'
 
 Book = Struct.new(:title, :url, :pages, :rating) do
   def update_info
-    sleep 1
+    sleep 0.1
     host = 'http://www.goodreads.com'
     html = open(host+url).read
     rating_r = %r|<span class="average" itemprop="ratingValue">([^<]*)</span>|
@@ -15,19 +14,23 @@ Book = Struct.new(:title, :url, :pages, :rating) do
     self.pages = html.scan(pages_r).first.first.to_i
     self
   end
+
+  def to_s
+    "[%1.2f] %4d - #{self.title}"%[self.rating, self.pages]
+  end
 end
 
-CACHE_NAME = "cached_book_list.json"
+CACHE_NAME = "cached_book_list.yaml"
 
 def cache_book_list(book_list)
   puts "Writing #{book_list.size} books to file '#{CACHE_NAME}'"
   File.open(CACHE_NAME,"w") do |f|
-    f.write(book_list.to_json)
+    f.write(YAML::dump(book_list))
   end
 end
 
 def read_cached_book_list
-  book_list = JSON.parse(open(CACHE_NAME,"r").read)
+  book_list = YAML::load(open(CACHE_NAME,"r").read)
   puts "Read #{book_list.size} books from file '#{CACHE_NAME}'"
   book_list
 end
@@ -50,15 +53,13 @@ def main
       read_cached_book_list
     else
       book_list = download_book_list
+      book_list.each(&:update_info)
       cache_book_list(book_list)
       book_list
     end
 
-  n = 3
+   puts book_list.sort_by(&:pages).join("\n")
   
-  updated_book_list = book_list.take(n).each(&:update_info)
-  
-  p updated_book_list.take(n)
 end
 
 main
