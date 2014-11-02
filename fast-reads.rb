@@ -4,8 +4,12 @@ require 'open-uri'
 
 Book = Struct.new(:title, :url, :pages, :rating) do
   def update_info
-    html = open(url)
+    sleep 1
+    host = 'http://www.goodreads.com'
+    html = open(host+url).read
+    p url
     rating_r = %r|<span class="average" itemprop="ratingValue">([^<])</span>|
+    @rating = html.scan(rating_r).first
   end
 end
 
@@ -21,5 +25,7 @@ def book_list
   books = matches.map{|tup| Book.new(*tup.reverse)}
 end
 
-book_list.each{
+book_list.take(5).each(&:update_info)
+
+p book_list
 
