@@ -58,7 +58,7 @@ def main
       book_list
     end
 
-   puts book_list.sort_by(&:pages).join("\n")
+   puts book_list.sort_by(&:pages).each_with_index.map{|b, i| '%3d %s'%[i, b]}.join("\n")
   
 end
 
