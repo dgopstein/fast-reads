@@ -3,7 +3,7 @@
 require 'open-uri'
 require 'yaml'
 
-Book = Struct.new(:title, :url, :pages, :rating) do
+Book = Struct.new(:title, :url, :author, :pages, :rating) do
   def update_info
     sleep 0.1
     host = 'http://www.goodreads.com'
@@ -16,7 +16,7 @@ Book = Struct.new(:title, :url, :pages, :rating) do
   end
 
   def to_s
-    "[%1.2f] %4d - #{self.title}"%[self.rating, self.pages]
+    '[%1.2f] %4d: %s - %s' % [self.rating, self.pages, self.author, self.title]
   end
 end
 
@@ -41,10 +41,11 @@ def download_book_list
   #regex = %r|<span itemprop="name">([^<]*)</span>| # Double-quotes around "name" returns authors, not titles!!!
   url_r = %r|<a href="([^"*]*)" class="bookTitle" itemprop="url">|
   title_r = %r|<span itemprop='name'>([^<]*)</span>|
-  book_r = /#{url_r}.*?#{title_r}/m
+  author_r = %r|<span itemprop="name">([^<]*)</span>|
+  book_r = /#{url_r}.*?#{title_r}.*?#{author_r}/m
   matches = html.scan(book_r)
 
-  books = matches.map{|tup| Book.new(*tup.reverse)}
+  books = matches.map{|tup| Book.new(*tup.values_at(1,0,2))}
 end
 
 def main
