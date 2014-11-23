@@ -1,0 +1,202 @@
+Read 100 books from file 'cached_book_list.yaml'
+  0 [4.26]   32: Margaret Wise Brown - Goodnight Moon
+  1 [4.23]   37: Maurice Sendak - Where the Wild Things Are
+  2 [4.32]   44: Dr. Seuss - Oh, The Places You'll Go!
+  3 [4.14]   61: Dr. Seuss - The Cat in the Hat
+  4 [4.29]   62: Dr. Seuss - Green Eggs and Ham
+  5 [4.38]   64: Shel Silverstein - The Giving Tree
+  6 [4.23]   98: Antoine de Saint-Exupéry - The Little Prince
+  7 [3.79]  103: John Steinbeck - Of Mice and Men
+  8 [3.98]  104: Charles Dickens - A Christmas Carol
+  9 [4.26]  115: Elie Wiesel - Night (The Night Trilogy, #1)
+ 10 [3.92]  123: Albert Camus - The Stranger
+ 11 [3.63]  132: Ernest Hemingway - The Old Man and the Sea
+ 12 [3.86]  132: William Shakespeare - Macbeth
+ 13 [4.32]  145: A.A. Milne - Winnie-the-Pooh (Winnie-the-Pooh, #1)
+ 14 [3.80]  152: George Orwell - Animal Farm
+ 15 [3.94]  152: Hermann Hesse - Siddhartha
+ 16 [4.25]  176: Shel Silverstein - Where the Sidewalk Ends: The Poems and Drawings of Shel Silverstein
+ 17 [4.11]  179: Lois Lowry - The Giver (The Giver, #1)
+ 18 [3.84]  180: F. Scott Fitzgerald - The Great Gatsby
+ 19 [3.60]  182: William Golding - Lord of the Flies
+ 20 [3.95]  192: Anthony Burgess - A Clockwork Orange
+ 21 [4.11]  192: E.B. White - Charlotte's Web
+ 22 [4.00]  192: S.E. Hinton - The Outsiders
+ 23 [3.99]  194: Mitch Albom - Tuesdays with Morrie
+ 24 [3.75]  197: Paulo Coelho - The Alchemist
+ 25 [3.73]  201: Franz Kafka - The Metamorphosis
+ 26 [4.15]  206: C.S. Lewis - The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)
+ 27 [4.01]  215: Kurt Vonnegut - Slaughterhouse-Five
+ 28 [4.18]  216: Douglas Adams - The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)
+ 29 [3.94]  227: Ray Bradbury - Fahrenheit 451
+ 30 [3.32]  228: Nathaniel Hawthorne - The Scarlet Letter
+ 31 [3.87]  231: Mark Twain - The Adventures of Tom Sawyer
+ 32 [4.05]  239: Lewis Carroll - Alice's Adventures in Wonderland &amp; Through the Looking-Glass
+ 33 [4.41]  241: Corrie ten Boom - The Hiding Place
+ 34 [4.02]  254: Oscar Wilde - The Picture of Dorian Gray
+ 35 [3.70]  273: Mary Shelley - Frankenstein
+ 36 [3.77]  277: J.D. Salinger - The Catcher in the Rye
+ 37 [4.23]  279: Jane Austen - Pride and Prejudice
+ 38 [3.72]  283: William Shakespeare - Romeo and Juliet
+ 39 [4.06]  283: Anne Frank - The Diary of a Young Girl
+ 40 [3.98]  289: William Shakespeare - Hamlet
+ 41 [4.11]  291: Maya Angelou - I Know Why the Caged Bird Sings
+ 42 [4.13]  295: Alice Walker - The Color Purple
+ 43 [3.85]  296: Erich Maria Remarque - All Quiet on the Western Front
+ 44 [4.38]  310: J.K. Rowling - Harry Potter and the Sorcerer's Stone (Harry Potter, #1)
+ 45 [3.98]  311: Daniel Keyes - Flowers for Algernon
+ 46 [3.98]  311: Margaret Atwood - The Handmaid's Tale
+ 47 [4.20]  320: L.M. Montgomery - Anne of Green Gables (Anne of Green Gables, #1)
+ 48 [4.23]  324: Harper Lee - To Kill a Mockingbird
+ 49 [4.28]  324: Orson Scott Card - Ender's Game (The Ender Quintet, #1)
+ 50 [4.17]  325: Ken Kesey - One Flew Over the Cuckoo's Nest
+ 51 [4.09]  326: George Orwell - 1984
+ 52 [3.78]  327: Mark Twain - The Adventures of Huckleberry Finn
+ 53 [4.09]  331: Frances Hodgson Burnett - The Secret Garden
+ 54 [4.14]  340: Aldous Huxley - Brave New World / Brave New World Revisited
+ 55 [3.86]  356: Yann Martel - Life of Pi
+ 56 [4.20]  365: J.R.R. Tolkien - The Hobbit
+ 57 [4.21]  371: Khaled Hosseini - The Kite Runner
+ 58 [4.30]  372: Khaled Hosseini - A Thousand Splendid Suns
+ 59 [4.40]  374: Suzanne Collins - The Hunger Games (The Hunger Games, #1)
+ 60 [3.85]  378: Vladimir Nabokov - Lolita
+ 61 [4.30]  398: J.R.R. Tolkien - The Fellowship of the Ring (The Lord of the Rings, #1)
+ 62 [3.94]  418: Pearl S. Buck - The Good Earth (House of Earth, #1)
+ 63 [4.04]  434: Arthur Golden - Memoirs of a Geisha
+ 64 [3.78]  438: Harriet Beecher Stowe - Uncle Tom's Cabin
+ 65 [4.00]  449: Louisa May Alcott - Little Women (Little Women, #1)
+ 66 [4.44]  451: Kathryn Stockett - The Help
+ 67 [3.96]  453: Joseph Heller - Catch-22 (Catch-22, #1)
+ 68 [3.99]  457: Gabriel Garcí­a Márquez - One Hundred Years of Solitude
+ 69 [3.79]  464: Emily Brontë - Wuthering Heights
+ 70 [3.76]  489: Charles Dickens - A Tale of Two Cities
+ 71 [4.22]  496: Betty  Smith - A Tree Grows in Brooklyn
+ 72 [3.88]  496: John Steinbeck - The Grapes of Wrath
+ 73 [3.56]  498: Stephenie Meyer - Twilight (Twilight, #1)
+ 74 [4.07]  507: Charlotte Brontë - Jane Eyre
+ 75 [3.92]  518: Audrey Niffenegger - The Time Traveler's Wife
+ 76 [4.41]  531: Joseph Smith Jr. - The Book of Mormon
+ 77 [4.15]  545: Fyodor Dostoyevsky - Crime and Punishment
+ 78 [3.98]  546: Barbara Kingsolver - The Poisonwood Bible
+ 79 [4.36]  552: Markus Zusak - The Book Thief
+ 80 [3.68]  560: Homer - The Odyssey
+ 81 [4.47]  560: J.K. Rowling - Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)
+ 82 [4.38]  604: Anonymous - The Quran
+ 83 [4.48]  652: J.K. Rowling - Harry Potter and the Half-Blood Prince (Harry Potter, #6)
+ 84 [3.40]  663: Herman Melville - Moby-Dick; or, The Whale
+ 85 [4.47]  734: J.K. Rowling - Harry Potter and the Goblet of Fire (Harry Potter, #4)
+ 86 [4.57]  759: J.K. Rowling - Harry Potter and the Deathly Hallows (Harry Potter, #7)
+ 87 [4.22]  767: C.S. Lewis - The Chronicles of Narnia (Chronicles of Narnia, #1-7)
+ 88 [4.28]  796: Fyodor Dostoyevsky - The Brothers Karamazov
+ 89 [3.99]  964: Leo Tolstoy - Anna Karenina
+ 90 [3.82]  982: Miguel de Cervantes Saavedra - Don Quixote
+ 91 [4.25] 1037: Margaret Mitchell - Gone with the Wind
+ 92 [3.66] 1168: Ayn Rand - Atlas Shrugged
+ 93 [4.31] 1168: Stephen King - The Stand
+ 94 [4.43] 1216: J.R.R. Tolkien - The Lord of the Rings (The Lord of the Rings, #1-3)
+ 95 [4.15] 1276: Alexandre Dumas - The Count of Monte Cristo
+ 96 [4.08] 1392: Leo Tolstoy - War and Peace
+ 97 [4.09] 1463: Victor Hugo - Les Misérables
+ 98 [4.39] 1590: Anonymous - Holy Bible: King James Version
+ 99 [4.33] 2700: Laura Ingalls Wilder - The Little House Collection (Little House, #1-9)
+Read 100 books from file 'cached_book_list.yaml'
+  0 [4.26]   32: Margaret Wise Brown - Goodnight Moon
+  1 [4.23]   37: Maurice Sendak - Where the Wild Things Are
+  2 [4.32]   44: Dr. Seuss - Oh, The Places You'll Go!
+  3 [4.14]   61: Dr. Seuss - The Cat in the Hat
+  4 [4.29]   62: Dr. Seuss - Green Eggs and Ham
+  5 [4.38]   64: Shel Silverstein - The Giving Tree
+  6 [4.23]   98: Antoine de Saint-Exupéry - The Little Prince
+  7 [3.79]  103: John Steinbeck - Of Mice and Men
+  8 [3.98]  104: Charles Dickens - A Christmas Carol
+  9 [4.26]  115: Elie Wiesel - Night (The Night Trilogy, #1)
+ 10 [3.92]  123: Albert Camus - The Stranger
+ 11 [3.63]  132: Ernest Hemingway - The Old Man and the Sea
+ 12 [3.86]  132: William Shakespeare - Macbeth
+ 13 [4.32]  145: A.A. Milne - Winnie-the-Pooh (Winnie-the-Pooh, #1)
+ 14 [3.80]  152: George Orwell - Animal Farm
+ 15 [3.94]  152: Hermann Hesse - Siddhartha
+ 16 [4.25]  176: Shel Silverstein - Where the Sidewalk Ends: The Poems and Drawings of Shel Silverstein
+ 17 [4.11]  179: Lois Lowry - The Giver (The Giver, #1)
+ 18 [3.84]  180: F. Scott Fitzgerald - The Great Gatsby
+ 19 [3.60]  182: William Golding - Lord of the Flies
+ 20 [3.95]  192: Anthony Burgess - A Clockwork Orange
+ 21 [4.11]  192: E.B. White - Charlotte's Web
+ 22 [4.00]  192: S.E. Hinton - The Outsiders
+ 23 [3.99]  194: Mitch Albom - Tuesdays with Morrie
+ 24 [3.75]  197: Paulo Coelho - The Alchemist
+ 25 [3.73]  201: Franz Kafka - The Metamorphosis
+ 26 [4.15]  206: C.S. Lewis - The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)
+ 27 [4.01]  215: Kurt Vonnegut - Slaughterhouse-Five
+ 28 [4.18]  216: Douglas Adams - The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)
+ 29 [3.94]  227: Ray Bradbury - Fahrenheit 451
+ 30 [3.32]  228: Nathaniel Hawthorne - The Scarlet Letter
+ 31 [3.87]  231: Mark Twain - The Adventures of Tom Sawyer
+ 32 [4.05]  239: Lewis Carroll - Alice's Adventures in Wonderland &amp; Through the Looking-Glass
+ 33 [4.41]  241: Corrie ten Boom - The Hiding Place
+ 34 [4.02]  254: Oscar Wilde - The Picture of Dorian Gray
+ 35 [3.70]  273: Mary Shelley - Frankenstein
+ 36 [3.77]  277: J.D. Salinger - The Catcher in the Rye
+ 37 [4.23]  279: Jane Austen - Pride and Prejudice
+ 38 [3.72]  283: William Shakespeare - Romeo and Juliet
+ 39 [4.06]  283: Anne Frank - The Diary of a Young Girl
+ 40 [3.98]  289: William Shakespeare - Hamlet
+ 41 [4.11]  291: Maya Angelou - I Know Why the Caged Bird Sings
+ 42 [4.13]  295: Alice Walker - The Color Purple
+ 43 [3.85]  296: Erich Maria Remarque - All Quiet on the Western Front
+ 44 [4.38]  310: J.K. Rowling - Harry Potter and the Sorcerer's Stone (Harry Potter, #1)
+ 45 [3.98]  311: Daniel Keyes - Flowers for Algernon
+ 46 [3.98]  311: Margaret Atwood - The Handmaid's Tale
+ 47 [4.20]  320: L.M. Montgomery - Anne of Green Gables (Anne of Green Gables, #1)
+ 48 [4.23]  324: Harper Lee - To Kill a Mockingbird
+ 49 [4.28]  324: Orson Scott Card - Ender's Game (The Ender Quintet, #1)
+ 50 [4.17]  325: Ken Kesey - One Flew Over the Cuckoo's Nest
+ 51 [4.09]  326: George Orwell - 1984
+ 52 [3.78]  327: Mark Twain - The Adventures of Huckleberry Finn
+ 53 [4.09]  331: Frances Hodgson Burnett - The Secret Garden
+ 54 [4.14]  340: Aldous Huxley - Brave New World / Brave New World Revisited
+ 55 [3.86]  356: Yann Martel - Life of Pi
+ 56 [4.20]  365: J.R.R. Tolkien - The Hobbit
+ 57 [4.21]  371: Khaled Hosseini - The Kite Runner
+ 58 [4.30]  372: Khaled Hosseini - A Thousand Splendid Suns
+ 59 [4.40]  374: Suzanne Collins - The Hunger Games (The Hunger Games, #1)
+ 60 [3.85]  378: Vladimir Nabokov - Lolita
+ 61 [4.30]  398: J.R.R. Tolkien - The Fellowship of the Ring (The Lord of the Rings, #1)
+ 62 [3.94]  418: Pearl S. Buck - The Good Earth (House of Earth, #1)
+ 63 [4.04]  434: Arthur Golden - Memoirs of a Geisha
+ 64 [3.78]  438: Harriet Beecher Stowe - Uncle Tom's Cabin
+ 65 [4.00]  449: Louisa May Alcott - Little Women (Little Women, #1)
+ 66 [4.44]  451: Kathryn Stockett - The Help
+ 67 [3.96]  453: Joseph Heller - Catch-22 (Catch-22, #1)
+ 68 [3.99]  457: Gabriel Garcí­a Márquez - One Hundred Years of Solitude
+ 69 [3.79]  464: Emily Brontë - Wuthering Heights
+ 70 [3.76]  489: Charles Dickens - A Tale of Two Cities
+ 71 [4.22]  496: Betty  Smith - A Tree Grows in Brooklyn
+ 72 [3.88]  496: John Steinbeck - The Grapes of Wrath
+ 73 [3.56]  498: Stephenie Meyer - Twilight (Twilight, #1)
+ 74 [4.07]  507: Charlotte Brontë - Jane Eyre
+ 75 [3.92]  518: Audrey Niffenegger - The Time Traveler's Wife
+ 76 [4.41]  531: Joseph Smith Jr. - The Book of Mormon
+ 77 [4.15]  545: Fyodor Dostoyevsky - Crime and Punishment
+ 78 [3.98]  546: Barbara Kingsolver - The Poisonwood Bible
+ 79 [4.36]  552: Markus Zusak - The Book Thief
+ 80 [3.68]  560: Homer - The Odyssey
+ 81 [4.47]  560: J.K. Rowling - Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)
+ 82 [4.38]  604: Anonymous - The Quran
+ 83 [4.48]  652: J.K. Rowling - Harry Potter and the Half-Blood Prince (Harry Potter, #6)
+ 84 [3.40]  663: Herman Melville - Moby-Dick; or, The Whale
+ 85 [4.47]  734: J.K. Rowling - Harry Potter and the Goblet of Fire (Harry Potter, #4)
+ 86 [4.57]  759: J.K. Rowling - Harry Potter and the Deathly Hallows (Harry Potter, #7)
+ 87 [4.22]  767: C.S. Lewis - The Chronicles of Narnia (Chronicles of Narnia, #1-7)
+ 88 [4.28]  796: Fyodor Dostoyevsky - The Brothers Karamazov
+ 89 [3.99]  964: Leo Tolstoy - Anna Karenina
+ 90 [3.82]  982: Miguel de Cervantes Saavedra - Don Quixote
+ 91 [4.25] 1037: Margaret Mitchell - Gone with the Wind
+ 92 [3.66] 1168: Ayn Rand - Atlas Shrugged
+ 93 [4.31] 1168: Stephen King - The Stand
+ 94 [4.43] 1216: J.R.R. Tolkien - The Lord of the Rings (The Lord of the Rings, #1-3)
+ 95 [4.15] 1276: Alexandre Dumas - The Count of Monte Cristo
+ 96 [4.08] 1392: Leo Tolstoy - War and Peace
+ 97 [4.09] 1463: Victor Hugo - Les Misérables
+ 98 [4.39] 1590: Anonymous - Holy Bible: King James Version
+ 99 [4.33] 2700: Laura Ingalls Wilder - The Little House Collection (Little House, #1-9)
