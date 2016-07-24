@@ -1,7 +1,9 @@
-#! /usr/bin/ruby
+#!/usr/bin/env rvm 2.3 do ruby
 
+require 'fileutils'
 require 'open-uri'
 require 'yaml'
+require 'nokogiri'
 
 Book = Struct.new(:title, :url, :author, :pages, :rating) do
   def update_info
@@ -20,44 +22,76 @@ Book = Struct.new(:title, :url, :author, :pages, :rating) do
   end
 end
 
-CACHE_NAME = "cached_book_list.yaml"
+LIST_CACHE_NAME = 'cache/book_list.yaml'
+HTML_CACHE_NAME = 'cache/page.html'
+
+FileUtils.mkdir_p('cache')
 
 def cache_book_list(book_list)
-  puts "Writing #{book_list.size} books to file '#{CACHE_NAME}'"
-  File.open(CACHE_NAME,"w") do |f|
+  puts "Writing #{book_list.size} books to file '#{LIST_CACHE_NAME}'"
+  File.open(LIST_CACHE_NAME,"w") do |f|
     f.write(YAML::dump(book_list))
   end
 end
 
 def read_cached_book_list
-  book_list = YAML::load(open(CACHE_NAME,"r").read)
-  puts "Read #{book_list.size} books from file '#{CACHE_NAME}'"
+  book_list = YAML::load(open(LIST_CACHE_NAME,"r").read)
+  puts "Read #{book_list.size} books from file '#{LIST_CACHE_NAME}'"
   book_list
+end
+
+def cache_html(html)
+  puts "Writing #{html.size} bytes of html to file '#{HTML_CACHE_NAME}'"
+  File.open(HTML_CACHE_NAME,"w") do |f|
+    f.write(html)
+  end
+  html
+end
+
+def read_cached_html
+  html = open(HTML_CACHE_NAME,"r").read
+  puts "Read #{html.size} bytes of html from file '#{HTML_CACHE_NAME}'"
+  html
 end
 
 def download_book_list
   url = 'http://www.goodreads.com/list/show/264.Books_That_Everyone_Should_Read_At_Least_Once'
-  html = open(url).read
-  #regex = %r|<span itemprop="name">([^<]*)</span>| # Double-quotes around "name" returns authors, not titles!!!
-  url_r = %r|<a href="([^"*]*)" class="bookTitle" itemprop="url">|
-  title_r = %r|<span itemprop='name'>([^<]*)</span>|
-  author_r = %r|<span itemprop="name">([^<]*)</span>|
-  book_r = /#{url_r}.*?#{title_r}.*?#{author_r}/m
-  matches = html.scan(book_r)
+  open(url).read
+end
 
-  books = matches.map{|tup| Book.new(*tup.values_at(1,0,2))}
+def parse_html(html)
+  doc = Nokogiri::HTML(html)
+
+  books = doc.xpath('//a[@class="bookTitle"]')
+  
+  books.map do |book|
+    url = book.attr('href')
+    title = book.xpath('./span[@itemprop="name"]').text
+    author = book.xpath('../span[@itemprop="author"]//span[@itemprop="name"]').first.text
+
+    Book.new(title, url, author)
+  end
 end
 
 def main
-  book_list =
-    if File.exists?(CACHE_NAME)
-      read_cached_book_list
+  html =
+    if File.exists?(HTML_CACHE_NAME)
+      read_cached_html
     else
-      book_list = download_book_list
-      book_list.each(&:update_info)
-      cache_book_list(book_list)
-      book_list
+      cache_html(download_book_list)
     end
 
-   puts book_list.sort_by(&:pages).each_with_index.map{|b, i| '%3d %s'%[i, b]}.join("\n")
+  book_list =
+    if File.exists?(LIST_CACHE_NAME)
+      read_cached_book_list
+    else
+      b_list = parse_html(html)
+      b_list.each(&:update_info)
+      cache_book_list(b_list)
+      b_list
+    end
+
+  puts book_list.sort_by(&:pages).each_with_index.map{|b, i| '%3d %s'%[i, b]}.join("\n")
 end
+
+main if __FILE__ == $0
