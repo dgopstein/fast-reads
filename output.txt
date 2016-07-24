@@ -10,8 +10,8 @@ Read 100 books from file 'cached_book_list.yaml'
   8 [3.98]  104: Charles Dickens - A Christmas Carol
   9 [4.26]  115: Elie Wiesel - Night (The Night Trilogy, #1)
  10 [3.92]  123: Albert Camus - The Stranger
- 11 [3.63]  132: Ernest Hemingway - The Old Man and the Sea
- 12 [3.86]  132: William Shakespeare - Macbeth
+ 11 [3.86]  132: William Shakespeare - Macbeth
+ 12 [3.63]  132: Ernest Hemingway - The Old Man and the Sea
  13 [4.32]  145: A.A. Milne - Winnie-the-Pooh (Winnie-the-Pooh, #1)
  14 [3.80]  152: George Orwell - Animal Farm
  15 [3.94]  152: Hermann Hesse - Siddhartha
@@ -70,8 +70,8 @@ Read 100 books from file 'cached_book_list.yaml'
  68 [3.99]  457: Gabriel Garcí­a Márquez - One Hundred Years of Solitude
  69 [3.79]  464: Emily Brontë - Wuthering Heights
  70 [3.76]  489: Charles Dickens - A Tale of Two Cities
- 71 [4.22]  496: Betty  Smith - A Tree Grows in Brooklyn
- 72 [3.88]  496: John Steinbeck - The Grapes of Wrath
+ 71 [3.88]  496: John Steinbeck - The Grapes of Wrath
+ 72 [4.22]  496: Betty  Smith - A Tree Grows in Brooklyn
  73 [3.56]  498: Stephenie Meyer - Twilight (Twilight, #1)
  74 [4.07]  507: Charlotte Brontë - Jane Eyre
  75 [3.92]  518: Audrey Niffenegger - The Time Traveler's Wife
@@ -91,8 +91,8 @@ Read 100 books from file 'cached_book_list.yaml'
  89 [3.99]  964: Leo Tolstoy - Anna Karenina
  90 [3.82]  982: Miguel de Cervantes Saavedra - Don Quixote
  91 [4.25] 1037: Margaret Mitchell - Gone with the Wind
- 92 [3.66] 1168: Ayn Rand - Atlas Shrugged
- 93 [4.31] 1168: Stephen King - The Stand
+ 92 [4.31] 1168: Stephen King - The Stand
+ 93 [3.66] 1168: Ayn Rand - Atlas Shrugged
  94 [4.43] 1216: J.R.R. Tolkien - The Lord of the Rings (The Lord of the Rings, #1-3)
  95 [4.15] 1276: Alexandre Dumas - The Count of Monte Cristo
  96 [4.08] 1392: Leo Tolstoy - War and Peace
