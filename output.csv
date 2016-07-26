@@ -1,0 +1,101 @@
+pages,rating,author,title
+32,4.27,Margaret Wise Brown,Goodnight Moon
+37,4.22,Maurice Sendak,Where the Wild Things Are
+44,4.33,Dr. Seuss,"Oh, The Places You'll Go!"
+61,4.14,Dr. Seuss,The Cat in the Hat
+62,4.29,Dr. Seuss,Green Eggs and Ham
+64,4.38,Shel Silverstein,The Giving Tree
+102,3.84,George Orwell,Animal Farm
+104,4.0,Charles Dickens,A Christmas Carol
+112,3.82,John Steinbeck,Of Mice and Men
+120,4.28,Elie Wiesel,"Night (The Night Trilogy, #1)"
+123,3.94,Albert Camus,The Stranger
+132,3.7,Ernest Hemingway,The Old Man and the Sea
+144,4.26,Antoine de Saint-Exupéry,The Little Prince
+145,4.33,A.A. Milne,"Winnie-the-Pooh (Winnie-the-Pooh, #1)"
+160,3.97,Hermann Hesse,Siddhartha
+176,4.28,Shel Silverstein,Where the Sidewalk Ends: The Poems and Drawings of Shel Silverstein
+180,4.12,Lois Lowry,"The Giver (The Giver, #1)"
+180,3.87,F. Scott Fitzgerald,The Great Gatsby
+182,3.63,William Golding,Lord of the Flies
+184,4.13,E.B. White,Charlotte's Web
+192,4.04,S.E. Hinton,The Outsiders
+197,3.79,Paulo Coelho,The Alchemist
+201,3.76,Franz Kafka,The Metamorphosis
+206,4.18,C.S. Lewis,"The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)"
+215,4.04,Kurt Vonnegut,Slaughterhouse-Five
+216,4.2,Douglas Adams,"The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)"
+224,4.04,Mitch Albom,Tuesdays with Morrie
+225,3.89,Mark Twain,The Adventures of Tom Sawyer
+227,3.96,Ray Bradbury,Fahrenheit 451
+228,3.36,Nathaniel Hawthorne,The Scarlet Letter
+238,3.96,Ray Bradbury,Fahrenheit 451
+239,4.06,Lewis Carroll,Alice's Adventures in Wonderland & Through the Looking-Glass
+242,4.42,Corrie ten Boom,The Hiding Place
+246,4.16,Maya Angelou,I Know Why the Caged Bird Sings
+249,3.87,William Shakespeare,Macbeth
+254,4.04,Oscar Wilde,The Picture of Dorian Gray
+268,4.12,George Orwell,1984
+273,3.73,Mary Shelley,Frankenstein
+277,3.78,J.D. Salinger,The Catcher in the Rye
+279,4.24,Jane Austen,Pride and Prejudice
+283,3.73,William Shakespeare,Romeo and Juliet
+283,4.08,Anne Frank,The Diary of a Young Girl
+289,3.99,William Shakespeare,Hamlet
+295,4.16,Alice Walker,The Color Purple
+296,3.9,Erich Maria Remarque,All Quiet on the Western Front
+310,4.42,J.K. Rowling,"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)"
+311,4.03,Daniel Keyes,Flowers for Algernon
+311,4.01,Margaret Atwood,The Handmaid's Tale
+320,4.21,L.M. Montgomery,"Anne of Green Gables (Anne of Green Gables, #1)"
+324,4.29,Orson Scott Card,"Ender's Game (The Ender Quintet, #1)"
+324,4.24,Harper Lee,To Kill a Mockingbird
+325,4.18,Ken Kesey,One Flew Over the Cuckoo's Nest
+327,3.79,Mark Twain,The Adventures of Huckleberry Finn
+331,4.11,Frances Hodgson Burnett,The Secret Garden
+340,4.14,Aldous Huxley,Brave New World / Brave New World Revisited
+366,4.23,J.R.R. Tolkien,The Hobbit
+371,4.24,Khaled Hosseini,The Kite Runner
+372,4.32,Khaled Hosseini,A Thousand Splendid Suns
+374,4.36,Suzanne Collins,"The Hunger Games (The Hunger Games, #1)"
+378,3.88,Vladimir Nabokov,Lolita
+398,4.32,J.R.R. Tolkien,"The Fellowship of the Ring (The Lord of the Rings, #1)"
+418,3.96,Pearl S. Buck,"The Good Earth (House of Earth, #1)"
+434,4.06,Arthur Golden,Memoirs of a Geisha
+435,4.51,J.K. Rowling,"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)"
+438,3.81,Harriet Beecher Stowe,Uncle Tom's Cabin
+444,4.45,Kathryn Stockett,The Help
+449,4.02,Louisa May Alcott,"Little Women (Little Women, #1)"
+453,3.97,Joseph Heller,Catch-22
+457,4.02,Gabriel Garcí­a Márquez,One Hundred Years of Solitude
+460,3.87,Yann Martel,Life of Pi
+464,3.81,Emily Brontë,Wuthering Heights
+489,3.79,Charles Dickens,A Tale of Two Cities
+496,3.9,John Steinbeck,The Grapes of Wrath
+496,4.23,Betty  Smith,A Tree Grows in Brooklyn
+498,3.56,Stephenie Meyer,"Twilight (Twilight, #1)"
+500,3.94,Audrey Niffenegger,The Time Traveler's Wife
+507,4.09,Charlotte Brontë,Jane Eyre
+531,4.38,Anonymous,The Book of Mormon: Another Testament of Jesus Christ
+545,4.17,Fyodor Dostoyevsky,Crime and Punishment
+546,4.01,Barbara Kingsolver,The Poisonwood Bible
+552,4.35,Markus Zusak,The Book Thief
+560,3.71,Homer,The Odyssey
+604,4.36,Anonymous,The Quran / القرآن الكريم
+652,4.52,J.K. Rowling,"Harry Potter and the Half-Blood Prince (Harry Potter, #6)"
+663,3.44,Herman Melville,"Moby-Dick; or, The Whale"
+734,4.51,J.K. Rowling,"Harry Potter and the Goblet of Fire (Harry Potter, #4)"
+759,4.6,J.K. Rowling,"Harry Potter and the Deathly Hallows (Harry Potter, #7)"
+767,4.23,C.S. Lewis,"The Chronicles of Narnia (Chronicles of Narnia, #1-7)"
+776,4.29,Fyodor Dostoyevsky,The Brothers Karamazov
+838,4.01,Leo Tolstoy,Anna Karenina
+982,3.84,Miguel de Cervantes Saavedra,Don Quixote
+1037,4.27,Margaret Mitchell,Gone with the Wind
+1153,4.33,Stephen King,The Stand
+1168,3.67,Ayn Rand,Atlas Shrugged
+1216,4.46,J.R.R. Tolkien,"The Lord of the Rings (The Lord of the Rings, #1-3)"
+1276,4.2,Alexandre Dumas,The Count of Monte Cristo
+1392,4.11,Leo Tolstoy,War and Peace
+1463,4.13,Victor Hugo,Les Misérables
+1590,4.42,Anonymous,Holy Bible: King James Version
+2700,4.32,Laura Ingalls Wilder,"The Little House Collection (Little House, #1-9)"

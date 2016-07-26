@@ -29,7 +29,7 @@ HTML_CACHE_NAME = 'cache/page.html'
 FileUtils.mkdir_p('cache')
 
 def cache_book_list(book_list)
-  puts "Writing #{book_list.size} books to file '#{LIST_CACHE_NAME}'"
+  STDERR.puts "Writing #{book_list.size} books to file '#{LIST_CACHE_NAME}'"
   File.open(LIST_CACHE_NAME,"w") do |f|
     f.write(YAML::dump(book_list))
   end
@@ -37,12 +37,12 @@ end
 
 def read_cached_book_list
   book_list = YAML::load(open(LIST_CACHE_NAME,"r").read)
-  puts "Read #{book_list.size} books from file '#{LIST_CACHE_NAME}'"
+  STDERR.puts "Read #{book_list.size} books from file '#{LIST_CACHE_NAME}'"
   book_list
 end
 
 def cache_html(html)
-  puts "Writing #{html.size} bytes of html to file '#{HTML_CACHE_NAME}'"
+  STDERR.puts "Writing #{html.size} bytes of html to file '#{HTML_CACHE_NAME}'"
   File.open(HTML_CACHE_NAME,"w") do |f|
     f.write(html)
   end
@@ -51,7 +51,7 @@ end
 
 def read_cached_html
   html = open(HTML_CACHE_NAME,"r").read
-  puts "Read #{html.size} bytes of html from file '#{HTML_CACHE_NAME}'"
+  STDERR.puts "Read #{html.size} bytes of html from file '#{HTML_CACHE_NAME}'"
   html
 end
 
@@ -93,8 +93,9 @@ def main
     end
 
   csv = CSV.generate do |csv|
+    csv << %w[pages rating author title]
     book_list.sort_by(&:pages).each_with_index do |b, i|
-      csv << [i, b.pages, b.rating, b.author, b.title]
+      csv << [b.pages, b.rating, b.author, b.title]
     end
   end
 
