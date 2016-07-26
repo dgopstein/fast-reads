@@ -4,6 +4,7 @@ require 'fileutils'
 require 'open-uri'
 require 'yaml'
 require 'nokogiri'
+require 'csv'
 
 Book = Struct.new(:title, :url, :author, :pages, :rating) do
   def update_info
@@ -91,7 +92,14 @@ def main
       b_list
     end
 
-  puts book_list.sort_by(&:pages).each_with_index.map{|b, i| '%3d %s'%[i, b]}.join("\n")
+  csv = CSV.generate do |csv|
+    book_list.sort_by(&:pages).each_with_index do |b, i|
+      csv << [i, b.pages, b.rating, b.author, b.title]
+    end
+  end
+
+  puts csv
+  #puts book_list.sort_by(&:pages).each_with_index.map{|b, i| '%3d %s'%[i, b]}.join("\n")
 end
 
 main if __FILE__ == $0
