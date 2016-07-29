@@ -93,9 +93,9 @@ def main
     end
 
   csv = CSV.generate do |csv|
-    csv << %w[pages rating author title]
+    csv << %w[id pages rating author title]
     book_list.sort_by(&:pages).each_with_index do |b, i|
-      csv << [b.pages, b.rating, b.author, b.title]
+      csv << [i, b.pages, b.rating, b.author, b.title]
     end
   end
 
