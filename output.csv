@@ -1,101 +1,101 @@
-id,pages,rating,author,title
-0,32,4.27,Margaret Wise Brown,Goodnight Moon
-1,37,4.22,Maurice Sendak,Where the Wild Things Are
-2,44,4.33,Dr. Seuss,"Oh, The Places You'll Go!"
-3,61,4.14,Dr. Seuss,The Cat in the Hat
-4,62,4.29,Dr. Seuss,Green Eggs and Ham
-5,64,4.38,Shel Silverstein,The Giving Tree
-6,102,3.84,George Orwell,Animal Farm
-7,104,4.0,Charles Dickens,A Christmas Carol
-8,112,3.82,John Steinbeck,Of Mice and Men
-9,120,4.28,Elie Wiesel,"Night (The Night Trilogy, #1)"
-10,123,3.94,Albert Camus,The Stranger
-11,132,3.7,Ernest Hemingway,The Old Man and the Sea
-12,144,4.26,Antoine de Saint-Exupéry,The Little Prince
-13,145,4.33,A.A. Milne,"Winnie-the-Pooh (Winnie-the-Pooh, #1)"
-14,160,3.97,Hermann Hesse,Siddhartha
-15,176,4.28,Shel Silverstein,Where the Sidewalk Ends: The Poems and Drawings of Shel Silverstein
-16,180,4.12,Lois Lowry,"The Giver (The Giver, #1)"
-17,180,3.87,F. Scott Fitzgerald,The Great Gatsby
-18,182,3.63,William Golding,Lord of the Flies
-19,184,4.13,E.B. White,Charlotte's Web
-20,192,4.04,S.E. Hinton,The Outsiders
-21,197,3.79,Paulo Coelho,The Alchemist
-22,201,3.76,Franz Kafka,The Metamorphosis
-23,206,4.18,C.S. Lewis,"The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)"
-24,215,4.04,Kurt Vonnegut,Slaughterhouse-Five
-25,216,4.2,Douglas Adams,"The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)"
-26,224,4.04,Mitch Albom,Tuesdays with Morrie
-27,225,3.89,Mark Twain,The Adventures of Tom Sawyer
-28,227,3.96,Ray Bradbury,Fahrenheit 451
-29,228,3.36,Nathaniel Hawthorne,The Scarlet Letter
-30,238,3.96,Ray Bradbury,Fahrenheit 451
-31,239,4.06,Lewis Carroll,Alice's Adventures in Wonderland & Through the Looking-Glass
-32,242,4.42,Corrie ten Boom,The Hiding Place
-33,246,4.16,Maya Angelou,I Know Why the Caged Bird Sings
-34,249,3.87,William Shakespeare,Macbeth
-35,254,4.04,Oscar Wilde,The Picture of Dorian Gray
-36,268,4.12,George Orwell,1984
-37,273,3.73,Mary Shelley,Frankenstein
-38,277,3.78,J.D. Salinger,The Catcher in the Rye
-39,279,4.24,Jane Austen,Pride and Prejudice
-40,283,3.73,William Shakespeare,Romeo and Juliet
-41,283,4.08,Anne Frank,The Diary of a Young Girl
-42,289,3.99,William Shakespeare,Hamlet
-43,295,4.16,Alice Walker,The Color Purple
-44,296,3.9,Erich Maria Remarque,All Quiet on the Western Front
-45,310,4.42,J.K. Rowling,"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)"
-46,311,4.03,Daniel Keyes,Flowers for Algernon
-47,311,4.01,Margaret Atwood,The Handmaid's Tale
-48,320,4.21,L.M. Montgomery,"Anne of Green Gables (Anne of Green Gables, #1)"
-49,324,4.29,Orson Scott Card,"Ender's Game (The Ender Quintet, #1)"
-50,324,4.24,Harper Lee,To Kill a Mockingbird
-51,325,4.18,Ken Kesey,One Flew Over the Cuckoo's Nest
-52,327,3.79,Mark Twain,The Adventures of Huckleberry Finn
-53,331,4.11,Frances Hodgson Burnett,The Secret Garden
-54,340,4.14,Aldous Huxley,Brave New World / Brave New World Revisited
-55,366,4.23,J.R.R. Tolkien,The Hobbit
-56,371,4.24,Khaled Hosseini,The Kite Runner
-57,372,4.32,Khaled Hosseini,A Thousand Splendid Suns
-58,374,4.36,Suzanne Collins,"The Hunger Games (The Hunger Games, #1)"
-59,378,3.88,Vladimir Nabokov,Lolita
-60,398,4.32,J.R.R. Tolkien,"The Fellowship of the Ring (The Lord of the Rings, #1)"
-61,418,3.96,Pearl S. Buck,"The Good Earth (House of Earth, #1)"
-62,434,4.06,Arthur Golden,Memoirs of a Geisha
-63,435,4.51,J.K. Rowling,"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)"
-64,438,3.81,Harriet Beecher Stowe,Uncle Tom's Cabin
-65,444,4.45,Kathryn Stockett,The Help
-66,449,4.02,Louisa May Alcott,"Little Women (Little Women, #1)"
-67,453,3.97,Joseph Heller,Catch-22
-68,457,4.02,Gabriel Garcí­a Márquez,One Hundred Years of Solitude
-69,460,3.87,Yann Martel,Life of Pi
-70,464,3.81,Emily Brontë,Wuthering Heights
-71,489,3.79,Charles Dickens,A Tale of Two Cities
-72,496,3.9,John Steinbeck,The Grapes of Wrath
-73,496,4.23,Betty  Smith,A Tree Grows in Brooklyn
-74,498,3.56,Stephenie Meyer,"Twilight (Twilight, #1)"
-75,500,3.94,Audrey Niffenegger,The Time Traveler's Wife
-76,507,4.09,Charlotte Brontë,Jane Eyre
-77,531,4.38,Anonymous,The Book of Mormon: Another Testament of Jesus Christ
-78,545,4.17,Fyodor Dostoyevsky,Crime and Punishment
-79,546,4.01,Barbara Kingsolver,The Poisonwood Bible
-80,552,4.35,Markus Zusak,The Book Thief
-81,560,3.71,Homer,The Odyssey
-82,604,4.36,Anonymous,The Quran / القرآن الكريم
-83,652,4.52,J.K. Rowling,"Harry Potter and the Half-Blood Prince (Harry Potter, #6)"
-84,663,3.44,Herman Melville,"Moby-Dick; or, The Whale"
-85,734,4.51,J.K. Rowling,"Harry Potter and the Goblet of Fire (Harry Potter, #4)"
-86,759,4.6,J.K. Rowling,"Harry Potter and the Deathly Hallows (Harry Potter, #7)"
-87,767,4.23,C.S. Lewis,"The Chronicles of Narnia (Chronicles of Narnia, #1-7)"
-88,776,4.29,Fyodor Dostoyevsky,The Brothers Karamazov
-89,838,4.01,Leo Tolstoy,Anna Karenina
-90,982,3.84,Miguel de Cervantes Saavedra,Don Quixote
-91,1037,4.27,Margaret Mitchell,Gone with the Wind
-92,1153,4.33,Stephen King,The Stand
-93,1168,3.67,Ayn Rand,Atlas Shrugged
-94,1216,4.46,J.R.R. Tolkien,"The Lord of the Rings (The Lord of the Rings, #1-3)"
-95,1276,4.2,Alexandre Dumas,The Count of Monte Cristo
-96,1392,4.11,Leo Tolstoy,War and Peace
-97,1463,4.13,Victor Hugo,Les Misérables
-98,1590,4.42,Anonymous,Holy Bible: King James Version
-99,2700,4.32,Laura Ingalls Wilder,"The Little House Collection (Little House, #1-9)"
+id,pages,rating,author,title,url
+0,32,4.27,Margaret Wise Brown,Goodnight Moon,/book/show/32929.Goodnight_Moon
+1,37,4.22,Maurice Sendak,Where the Wild Things Are,/book/show/19543.Where_the_Wild_Things_Are
+2,44,4.33,Dr. Seuss,"Oh, The Places You'll Go!",/book/show/191139.Oh_The_Places_You_ll_Go_
+3,61,4.14,Dr. Seuss,The Cat in the Hat,/book/show/233093.The_Cat_in_the_Hat
+4,62,4.29,Dr. Seuss,Green Eggs and Ham,/book/show/23772.Green_Eggs_and_Ham
+5,64,4.38,Shel Silverstein,The Giving Tree,/book/show/370493.The_Giving_Tree
+6,102,3.84,George Orwell,Animal Farm,/book/show/7613.Animal_Farm
+7,104,4.0,Charles Dickens,A Christmas Carol,/book/show/5326.A_Christmas_Carol
+8,112,3.82,John Steinbeck,Of Mice and Men,/book/show/890.Of_Mice_and_Men
+9,120,4.28,Elie Wiesel,"Night (The Night Trilogy, #1)",/book/show/1617.Night
+10,123,3.94,Albert Camus,The Stranger,/book/show/49552.The_Stranger
+11,132,3.7,Ernest Hemingway,The Old Man and the Sea,/book/show/2165.The_Old_Man_and_the_Sea
+12,144,4.26,Antoine de Saint-Exupéry,The Little Prince,/book/show/157993.The_Little_Prince
+13,145,4.33,A.A. Milne,"Winnie-the-Pooh (Winnie-the-Pooh, #1)",/book/show/99107.Winnie_the_Pooh
+14,160,3.97,Hermann Hesse,Siddhartha,/book/show/52036.Siddhartha
+15,176,4.28,Shel Silverstein,Where the Sidewalk Ends: The Poems and Drawings of Shel Silverstein,/book/show/30119.Where_the_Sidewalk_Ends
+16,180,4.12,Lois Lowry,"The Giver (The Giver, #1)",/book/show/3636.The_Giver
+17,180,3.87,F. Scott Fitzgerald,The Great Gatsby,/book/show/4671.The_Great_Gatsby
+18,182,3.63,William Golding,Lord of the Flies,/book/show/7624.Lord_of_the_Flies
+19,184,4.13,E.B. White,Charlotte's Web,/book/show/24178.Charlotte_s_Web
+20,192,4.04,S.E. Hinton,The Outsiders,/book/show/231804.The_Outsiders
+21,197,3.79,Paulo Coelho,The Alchemist,/book/show/865.The_Alchemist
+22,201,3.76,Franz Kafka,The Metamorphosis,/book/show/485894.The_Metamorphosis
+23,206,4.18,C.S. Lewis,"The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)",/book/show/100915.The_Lion_the_Witch_and_the_Wardrobe
+24,215,4.04,Kurt Vonnegut,Slaughterhouse-Five,/book/show/4981.Slaughterhouse_Five
+25,216,4.2,Douglas Adams,"The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",/book/show/11.The_Hitchhiker_s_Guide_to_the_Galaxy
+26,224,4.04,Mitch Albom,Tuesdays with Morrie,/book/show/6900.Tuesdays_with_Morrie
+27,225,3.89,Mark Twain,The Adventures of Tom Sawyer,/book/show/24583.The_Adventures_of_Tom_Sawyer
+28,227,3.96,Ray Bradbury,Fahrenheit 451,/book/show/17470674-fahrenheit-451
+29,228,3.36,Nathaniel Hawthorne,The Scarlet Letter,/book/show/12296.The_Scarlet_Letter
+30,238,3.96,Ray Bradbury,Fahrenheit 451,/book/show/4381.Fahrenheit_451
+31,239,4.06,Lewis Carroll,Alice's Adventures in Wonderland & Through the Looking-Glass,/book/show/24213.Alice_s_Adventures_in_Wonderland_Through_the_Looking_Glass
+32,242,4.42,Corrie ten Boom,The Hiding Place,/book/show/561909.The_Hiding_Place
+33,246,4.16,Maya Angelou,I Know Why the Caged Bird Sings,/book/show/13214.I_Know_Why_the_Caged_Bird_Sings
+34,249,3.87,William Shakespeare,Macbeth,/book/show/8852.Macbeth
+35,254,4.04,Oscar Wilde,The Picture of Dorian Gray,/book/show/5297.The_Picture_of_Dorian_Gray
+36,268,4.12,George Orwell,1984,/book/show/5470.1984
+37,273,3.73,Mary Shelley,Frankenstein,/book/show/18490.Frankenstein
+38,277,3.78,J.D. Salinger,The Catcher in the Rye,/book/show/5107.The_Catcher_in_the_Rye
+39,279,4.24,Jane Austen,Pride and Prejudice,/book/show/1885.Pride_and_Prejudice
+40,283,3.73,William Shakespeare,Romeo and Juliet,/book/show/18135.Romeo_and_Juliet
+41,283,4.08,Anne Frank,The Diary of a Young Girl,/book/show/48855.The_Diary_of_a_Young_Girl
+42,289,3.99,William Shakespeare,Hamlet,/book/show/1420.Hamlet
+43,295,4.16,Alice Walker,The Color Purple,/book/show/11486.The_Color_Purple
+44,296,3.9,Erich Maria Remarque,All Quiet on the Western Front,/book/show/355697.All_Quiet_on_the_Western_Front
+45,310,4.42,J.K. Rowling,"Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone
+46,311,4.03,Daniel Keyes,Flowers for Algernon,/book/show/18373.Flowers_for_Algernon
+47,311,4.01,Margaret Atwood,The Handmaid's Tale,/book/show/38447.The_Handmaid_s_Tale
+48,320,4.21,L.M. Montgomery,"Anne of Green Gables (Anne of Green Gables, #1)",/book/show/8127.Anne_of_Green_Gables
+49,324,4.29,Orson Scott Card,"Ender's Game (The Ender Quintet, #1)",/book/show/375802.Ender_s_Game
+50,324,4.24,Harper Lee,To Kill a Mockingbird,/book/show/2657.To_Kill_a_Mockingbird
+51,325,4.18,Ken Kesey,One Flew Over the Cuckoo's Nest,/book/show/332613.One_Flew_Over_the_Cuckoo_s_Nest
+52,327,3.79,Mark Twain,The Adventures of Huckleberry Finn,/book/show/2956.The_Adventures_of_Huckleberry_Finn
+53,331,4.11,Frances Hodgson Burnett,The Secret Garden,/book/show/2998.The_Secret_Garden
+54,340,4.14,Aldous Huxley,Brave New World / Brave New World Revisited,/book/show/5479.Brave_New_World_Brave_New_World_Revisited
+55,366,4.23,J.R.R. Tolkien,The Hobbit,/book/show/5907.The_Hobbit
+56,371,4.24,Khaled Hosseini,The Kite Runner,/book/show/77203.The_Kite_Runner
+57,372,4.32,Khaled Hosseini,A Thousand Splendid Suns,/book/show/128029.A_Thousand_Splendid_Suns
+58,374,4.36,Suzanne Collins,"The Hunger Games (The Hunger Games, #1)",/book/show/2767052-the-hunger-games
+59,378,3.88,Vladimir Nabokov,Lolita,/book/show/7604.Lolita
+60,398,4.32,J.R.R. Tolkien,"The Fellowship of the Ring (The Lord of the Rings, #1)",/book/show/34.The_Fellowship_of_the_Ring
+61,418,3.96,Pearl S. Buck,"The Good Earth (House of Earth, #1)",/book/show/1078.The_Good_Earth
+62,434,4.06,Arthur Golden,Memoirs of a Geisha,/book/show/930.Memoirs_of_a_Geisha
+63,435,4.51,J.K. Rowling,"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban
+64,438,3.81,Harriet Beecher Stowe,Uncle Tom's Cabin,/book/show/46787.Uncle_Tom_s_Cabin
+65,444,4.45,Kathryn Stockett,The Help,/book/show/4667024-the-help
+66,449,4.02,Louisa May Alcott,"Little Women (Little Women, #1)",/book/show/1934.Little_Women
+67,453,3.97,Joseph Heller,Catch-22,/book/show/168668.Catch_22
+68,457,4.02,Gabriel Garcí­a Márquez,One Hundred Years of Solitude,/book/show/320.One_Hundred_Years_of_Solitude
+69,460,3.87,Yann Martel,Life of Pi,/book/show/4214.Life_of_Pi
+70,464,3.81,Emily Brontë,Wuthering Heights,/book/show/6185.Wuthering_Heights
+71,489,3.79,Charles Dickens,A Tale of Two Cities,/book/show/1953.A_Tale_of_Two_Cities
+72,496,3.9,John Steinbeck,The Grapes of Wrath,/book/show/18114322-the-grapes-of-wrath
+73,496,4.23,Betty  Smith,A Tree Grows in Brooklyn,/book/show/14891.A_Tree_Grows_in_Brooklyn
+74,498,3.56,Stephenie Meyer,"Twilight (Twilight, #1)",/book/show/41865.Twilight
+75,500,3.94,Audrey Niffenegger,The Time Traveler's Wife,/book/show/18619684-the-time-traveler-s-wife
+76,507,4.09,Charlotte Brontë,Jane Eyre,/book/show/10210.Jane_Eyre
+77,531,4.38,Anonymous,The Book of Mormon: Another Testament of Jesus Christ,/book/show/323355.The_Book_of_Mormon
+78,545,4.17,Fyodor Dostoyevsky,Crime and Punishment,/book/show/7144.Crime_and_Punishment
+79,546,4.01,Barbara Kingsolver,The Poisonwood Bible,/book/show/7244.The_Poisonwood_Bible
+80,552,4.35,Markus Zusak,The Book Thief,/book/show/19063.The_Book_Thief
+81,560,3.71,Homer,The Odyssey,/book/show/1381.The_Odyssey
+82,604,4.36,Anonymous,The Quran / القرآن الكريم,/book/show/646462.The_Quran_
+83,652,4.52,J.K. Rowling,"Harry Potter and the Half-Blood Prince (Harry Potter, #6)",/book/show/1.Harry_Potter_and_the_Half_Blood_Prince
+84,663,3.44,Herman Melville,"Moby-Dick; or, The Whale",/book/show/153747.Moby_Dick_or_The_Whale
+85,734,4.51,J.K. Rowling,"Harry Potter and the Goblet of Fire (Harry Potter, #4)",/book/show/6.Harry_Potter_and_the_Goblet_of_Fire
+86,759,4.6,J.K. Rowling,"Harry Potter and the Deathly Hallows (Harry Potter, #7)",/book/show/136251.Harry_Potter_and_the_Deathly_Hallows
+87,767,4.23,C.S. Lewis,"The Chronicles of Narnia (Chronicles of Narnia, #1-7)",/book/show/11127.The_Chronicles_of_Narnia
+88,776,4.29,Fyodor Dostoyevsky,The Brothers Karamazov,/book/show/4934.The_Brothers_Karamazov
+89,838,4.01,Leo Tolstoy,Anna Karenina,/book/show/151.Anna_Karenina
+90,982,3.84,Miguel de Cervantes Saavedra,Don Quixote,/book/show/3836.Don_Quixote
+91,1037,4.27,Margaret Mitchell,Gone with the Wind,/book/show/18405.Gone_with_the_Wind
+92,1153,4.33,Stephen King,The Stand,/book/show/149267.The_Stand
+93,1168,3.67,Ayn Rand,Atlas Shrugged,/book/show/662.Atlas_Shrugged
+94,1216,4.46,J.R.R. Tolkien,"The Lord of the Rings (The Lord of the Rings, #1-3)",/book/show/33.The_Lord_of_the_Rings
+95,1276,4.2,Alexandre Dumas,The Count of Monte Cristo,/book/show/7126.The_Count_of_Monte_Cristo
+96,1392,4.11,Leo Tolstoy,War and Peace,/book/show/656.War_and_Peace
+97,1463,4.13,Victor Hugo,Les Misérables,/book/show/24280.Les_Mis_rables
+98,1590,4.42,Anonymous,Holy Bible: King James Version,/book/show/1923820.Holy_Bible
+99,2700,4.32,Laura Ingalls Wilder,"The Little House Collection (Little House, #1-9)",/book/show/114345.The_Little_House_Collection

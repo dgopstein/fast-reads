@@ -93,14 +93,17 @@ def main
     end
 
   csv = CSV.generate do |csv|
-    csv << %w[id pages rating author title]
+    csv << %w[id pages rating author title url]
     book_list.sort_by(&:pages).each_with_index do |b, i|
-      csv << [i, b.pages, b.rating, b.author, b.title]
+      csv << [i, b.pages, b.rating, b.author, b.title, b.url]
     end
   end
 
-  puts csv
-  #puts book_list.sort_by(&:pages).each_with_index.map{|b, i| '%3d %s'%[i, b]}.join("\n")
+  if ARGV[0] =~ /csv/
+    puts csv
+  else
+    puts book_list.sort_by(&:pages).each_with_index.map{|b, i| '%3d %s'%[i, b]}.join("\n")
+  end
 end
 
 main if __FILE__ == $0
